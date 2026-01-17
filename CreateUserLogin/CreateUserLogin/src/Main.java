@@ -20,7 +20,7 @@ public class Main {
                 else {
                     String enterPassword = password;
                     System.out.println("Your password is wrong");
-                    System.out.println("Dou you want to reset your password? 1-Yes 2-No");
+                    System.out.println("Dou you want to reset your password? 1-Yes 2-No ");
                     int choose = input.nextInt();
                     if(choose == 1){
                         System.out.println("Your new password shouldn't same with before password and shouldn't wrong.");
